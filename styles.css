@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upload-area {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.upload-area:hover {
+    background-color: #e9ecef;
+}
+
+.geolocation-area {
+    margin-bottom: 20px;
+}
+
+.preview-area {
+    margin-top: 20px;
+}

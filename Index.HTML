@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload and Geolocation Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Загрузка файлов и геолокация</h1>
+        <div class="upload-area" id="drop-area">
+            <p>Перетащите файлы сюда или <strong><a href="#" id="file-input-link">выберите файлы</a></strong></p>
+            <input type="file" id="file-input" multiple>
+        </div>
+
+        <div class="geolocation-area">
+            <button id="get-location">Получить местоположение</button>
+            <p id="location-output"></p>
+        </div>
+
+        <div class="preview-area" id="preview"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
